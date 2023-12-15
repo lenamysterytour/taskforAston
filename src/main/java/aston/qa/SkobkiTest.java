@@ -48,7 +48,7 @@ public class SkobkiTest {
 
     public static void main(String[] args) {
 
-        String str = "([[{}]]))";
+        String str = "[((())()(())]]";
 
         if (balanced(str))
             System.out.println("is balanced");
