@@ -48,7 +48,9 @@ public class SkobkiTest {
 
     public static void main(String[] args) {
 
-        String str = "[((())()(())]]";
+        System.out.println("Введите свою скобочную последовательность для затеста");
+        Scanner scan = new Scanner(System.in);
+        String str = scan.nextLine();
 
         if (balanced(str))
             System.out.println("is balanced");
