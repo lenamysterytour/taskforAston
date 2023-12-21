@@ -16,7 +16,7 @@ public class AlgorithmTests {
                 System.out.println("Пока");
             }
         } catch (InputMismatchException e) {
-            System.err.println("Ошибка ввода, введите число цифрами2");
+            System.err.println("Ошибка ввода, введите число цифрами");
         }
     }
 
